@@ -1,6 +1,6 @@
 export function Nav() {
   return (
-    <nav className="nav d-flex justify-content-between align-items-center">
+    <nav className="nav nav-fluid d-flex justify-content-between align-items-center">
       <h5 className="nav-name">Maximo Kugler</h5>
       <ul className="d-flex justify-content-end gap-4">
         <li className="nav-item">

@@ -22,10 +22,4 @@ function App() {
 
 export default App;
 
-//HACER RUTA DE APRENDIZAJE
-//Background gradient
-//poner primero las tecnologias que manejas
-//despues los proyectos
-//ultimo tiene que ir lo de sobre vos
-//habilidades blandas como conocimientos de depuracion, estructuras de datos y algoritmos etc...
-// poner poco texto en ancho
+//HACER RESPONSIVE DESIGN

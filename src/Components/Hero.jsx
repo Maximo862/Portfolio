@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export function Hero() {
   return (
-    <section id="home" className="hero container-fluid">
+    <section id="home" className="hero container">
       <div className="hero-img">
         <img src="" alt="me" className="img-me img-fluid" />
       </div>
@@ -17,7 +17,7 @@ export function Hero() {
         <a href="#aboutme">
           <button className="hero-button my-3">About me</button>
         </a>
-        <div className="d-flex flex-direction-row gap-4 my-3">
+        <div className="d-flex flex-row gap-4 my-3">
           <a
             className="hero-icon"
             href="https://github.com/Maximo862"
@@ -42,6 +42,7 @@ export function Hero() {
         </div>
         <FaLocationDot />
         <span>Argentina, Buenos Aires</span>
+
       </div>
     </section>
   );

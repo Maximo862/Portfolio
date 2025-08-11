@@ -14,7 +14,6 @@ list-style: none;
 
 .nav {
   background-color: #A42CD6;
-  
 }
 
 .hero {
@@ -22,7 +21,7 @@ list-style: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 22rem;
+  gap: 15rem;
 }
 
 .hero-content {
@@ -42,7 +41,6 @@ list-style: none;
 
 
 .nav-btn {
-  font-size: 18px;
   color: #F7E733;
   font-family: inherit;
   font-weight: 800;
@@ -148,7 +146,7 @@ list-style: none;
 
 .skills-box {
  width: 12rem;
- height: 16rem;
+ min-height: 16rem;
  border-radius: 30px;
  background: #212121;
  box-shadow: 15px 15px 30px rgb(25, 25, 25),
@@ -185,7 +183,6 @@ margin-top: 20rem;
 .projects-box {
   color: #C179B9;
   width: 17rem;
-  height: 30rem;
   border: 1px solid #EEC643;
   transition: transform 0.3s ease;
 }
@@ -267,6 +264,25 @@ margin-top: 20rem;
   color: #03A9F4 !important;
 }
 
+@media (max-width: 768px) {
+  .nav-name {
+    display: none;
+  }
+  .projectsmobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+flex-direction: column !important;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+}
 /* 
 Colors : 
 000000
