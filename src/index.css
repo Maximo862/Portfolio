@@ -80,7 +80,15 @@ list-style: none;
 }
 
 .img-me {
-  background-color: #C179B9;
+  border-radius: 1000rem;
+  max-height: 20rem;
+  border: 2px solid #A42CD6;
+  transition: transform 0.2s ease;
+}
+
+.img-me:hover {
+  border: 3px solid #A42CD6;
+transform: scale(1.1);
 }
 
 .hero-button {
@@ -277,7 +285,7 @@ margin-top: 20rem;
 
 @media (max-width: 600px) {
   .hero {
-flex-direction: column !important;
+flex-direction: column-reverse !important;
   }
   nav ul {
     flex-direction: column;

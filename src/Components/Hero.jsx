@@ -2,12 +2,13 @@ import { IoLogoGithub } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { FaLocationDot } from "react-icons/fa6";
+import imgcv from "../IMGS/Linkedin.jpg";
 
 export function Hero() {
   return (
     <section id="home" className="hero container">
       <div className="hero-img">
-        <img src="" alt="me" className="img-me img-fluid" />
+        <img src={imgcv} alt="me" className="img-me img-fluid shadow" />
       </div>
       <div className="hero-content">
         <h2>
